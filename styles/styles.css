@@ -21,25 +21,12 @@ nav a {
     padding: 20px;
 }
 
-main {
-    max-width: 600px;
-}
-
-aside {
-    position: relative;
-    width: 15rem;
-    text-align: center;
-}
-
-aside img {
-
-    width: 200px;
-    height: auto;
-
-}
-
 h1 {
     color: var(--heading-background-color);
+}
+
+main {
+    max-width: 600px;
 }
 
 main img {
@@ -53,6 +40,19 @@ main img {
 
 main p {
     padding: 0px;
+}
+
+aside {
+    position: relative;
+    width: 15rem;
+    text-align: center;
+}
+
+aside img {
+
+    width: 200px;
+    height: auto;
+
 }
 
 aside h2 {
