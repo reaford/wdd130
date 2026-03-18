@@ -4,7 +4,7 @@
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: Arial, Helvetica, sans-serif, ;
-    --body-font: "Times New Roman", "Georgia", serif;
+    --body-font: Times New Roman, Georgia, serif;
 }
 
 * {
@@ -92,5 +92,4 @@ article {
     float: right;
     width: 125px;
     border: 5px black;
-    box-shadow: 10px, 10px, 15px rgb(0, 0, 0, 0.5);
 }
