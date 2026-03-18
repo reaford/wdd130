@@ -1,8 +1,8 @@
 :root {
-    --primary-color: aqua;
-    --secondary-color: green;
-    --accent-color1: red;
-    --accent-color2: blue;
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: 264653;
+    --accent2-color: e9c46a;
     --heading-font: Arial, Helvetica, sans-serif, ;
     --body-font: "Times New Roman", "Georgia", serif;
 }
@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent-color1);
+    color: var(--accent1-color);
 }
 
 header,
@@ -38,7 +38,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent-color1);
+    background-color: var(--accent1-color);
     color: #fff;
 }
 
