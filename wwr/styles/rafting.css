@@ -28,6 +28,24 @@ footer {
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 175px 1fr;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+
+}
+
+.navigation li {
+    flex: 1 1 auto;
+
 }
 
 h1,
@@ -78,7 +96,7 @@ article {
 
 .hero article {
     position: absolute;
-    bottom: 25%;
+    bottom: 1px;
     text-align: center;
     width: 90%;
     opacity: .8;
@@ -92,4 +110,32 @@ article {
     float: right;
     width: 125px;
     border: 5px black;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    justify-items: center;
+}
+
+.history img {
+    width: 125px;
+    height: auto;
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 0.25fr;
+    place-items: center;
+
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-around;
 }
