@@ -128,6 +128,11 @@ article {
     justify-content: space-around;
 }
 
+.adventure img {
+    width: 125px;
+    height: auto;
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr 0.25fr;
