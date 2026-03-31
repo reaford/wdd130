@@ -1,0 +1,33 @@
+table {
+    border-spacing: 0;
+    border: 1px solid grey;
+}
+
+th {
+    padding: 3px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid grey;
+}
+
+td {
+    border: 0.5px solid grey;
+    text-align: center;
+    padding: 10px;
+
+}
+
+thead th,
+tfoot tr {
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+
+}
+
+td:hover {
+    background-color: aqua;
+}
