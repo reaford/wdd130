@@ -188,7 +188,7 @@ p {
 
 .column1 {
     grid-template-columns: .75fr 1.25fr;
-    margin: .25rem .25 rem;
+    margin: .25rem .25rem;
 }
 
 .purpose {
