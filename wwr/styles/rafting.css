@@ -155,13 +155,6 @@ footer {
     justify-content: space-around;
 }
 
-h3 {
-    text-align: center;
-    padding: 0px;
-    font-size: 1.5rem;
-    color: var(--accent1-color);
-}
-
 p {
     padding: 0px;
     margin: 0px;
@@ -204,4 +197,20 @@ p {
 label {
     text-align: center;
 
+}
+
+.top h1 {
+    position: initial;
+    background-color: white;
+    color: black;
+}
+
+.staff h2 {
+    background-color: white;
+    color: black;
+}
+
+.staffimg {
+    display: flex;
+    justify-content: space-around;
 }
