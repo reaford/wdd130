@@ -159,7 +159,7 @@ p {
     padding: 0px;
     margin: 0px 0px 10px 0px;
     text-align: center;
-    font-size: .95rem;
+    font-size: 1.05rem;
     color: black;
 
 }
@@ -250,7 +250,9 @@ label {
 }
 
 .button {
-    justify-items: center;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
 }
 
 .message {
