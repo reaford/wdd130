@@ -157,7 +157,7 @@ footer {
 
 p {
     padding: 0px;
-    margin: 0px;
+    margin: 0px 0px 10px 0px;
     text-align: center;
     font-size: .95rem;
     color: black;
@@ -185,13 +185,28 @@ p {
 }
 
 .purpose {
+    display: inline-flex;
+    margin: 0px auto;
     display: grid;
-    grid-template-columns: .25fr 1fr;
+    grid-template-columns: .5fr 1fr;
+
 }
 
 .purpose p {
-    grid-row: span 3;
-    align-self: center;
+    display: grid;
+    flex-direction: column;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    align-items: center;
+}
+
+.purpose label {
+    order: 2;
+    margin: 0;
+}
+
+.purpose input {
+    margin: 0px;
 }
 
 label {
@@ -203,6 +218,12 @@ label {
     position: initial;
     background-color: white;
     color: black;
+    margin: 0;
+}
+
+.staff {
+    background-color: white;
+    border: 1px solid black;
 }
 
 .staff h2 {
@@ -213,4 +234,30 @@ label {
 .staffimg {
     display: flex;
     justify-content: space-around;
+}
+
+.subscribe {
+    display: flex;
+    margin: 10px;
+}
+
+.subscribe label {
+    order: 2;
+}
+
+.subscribe input {
+    margin: 10px;
+}
+
+.button {
+    justify-items: center;
+}
+
+.message {
+    display: grid;
+}
+
+.message label {
+    display: grid;
+    justify-content: left;
 }
